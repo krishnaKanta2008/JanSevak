@@ -25,6 +25,7 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Image, Spacer
 from io import BytesIO
+import gunicorn
 
 app = Flask(__name__)
 mail = Mail(app)
