@@ -8,8 +8,6 @@ from werkzeug.utils import secure_filename
 import os
 import plotly.express as px
 import numpy as np
-# from tensorflow.keras.preprocessing import image
-# import tensorflow as tf
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 import numpy as np,pandas as pd
